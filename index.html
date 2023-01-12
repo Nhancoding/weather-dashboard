@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-fifth">
+                    <div>
+                        <h2 class="title is-3">Search for a City:</h2>
+                        <form action="">
+                            <input id="search-city" class="input is-info"  type="text" placeholder="Search city here">
+                            <button class="button is-info">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p class="title" id="searched-city">City (MM/DD/YYYY)</p>
+                        <p class="weather">Weather Display</p>
+                        <p class="temp">Today's Temperature</p>
+                        <p class="wind">Today's Wind</p>
+                        <p class="humidity">Today's Humidity</p>
+                    </div>
+
+                    <div class="nes-container is-rounded">
+                        <h3 class="title is-4">5 Day Forecast</h3>
+
+                    </div>
+                    <p id="weather-5-day">Display Weather Forecast</p>
+                    <p id="temp-5-day">Display Temperature Forecast</p>
+                    <p id="wind-5-day">Display Wind Forecast</p>
+                    <p id="humidity-5-day">Display Humidity Forecast</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src=""></script>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
